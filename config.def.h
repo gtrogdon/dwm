@@ -14,14 +14,14 @@ static const int vertpad            = 10;       /* vertical padding of bar */
 static const int sidepad            = 10;       /* horizontal padding of bar */
 static const unsigned int baralpha = 0x00;
 static const unsigned int borderalpha = OPAQUE;
-static const char *fonts[]          = { "monospace:size=10" };
+static const char *fonts[]          = { "SF Display Rounded:size=16" };
 static const char dmenufont[]       = "monospace:size=10";
 static char normbgcolor[]           = "#000000";
 static char normbordercolor[]       = "#444444";
-static char normfgcolor[]           = "#bbbbbb";
+static char normfgcolor[]           = "#ffffff";
 static char selfgcolor[]            = "#eeeeee";
 static char selbordercolor[]        = "#005577";
-static char selbgcolor[]            = "#005577";
+static char selbgcolor[]            = "#000000";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
